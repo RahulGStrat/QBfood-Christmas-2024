@@ -1,0 +1,39 @@
+.cg-title {
+    text-align: center;
+
+    h1 {
+        font-size: 35px;
+        font-weight: 700;
+        color: #333333;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 50px;
+        font-weight: 700;
+        color: #147D41;
+        margin: 0;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #333333;
+    }
+}
+
+body {
+    font-family: Poppins;
+    margin: 0;
+}
+
+button {
+    font-family: Poppins;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}

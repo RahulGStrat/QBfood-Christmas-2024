@@ -1,0 +1,24 @@
+.cg-btn {
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    text-transform: uppercase;
+    background-color: #147D41;
+    border: 1px solid #147D41;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px 16px;
+    transition: all 0.3s ease-in-out;
+    font-size: 16px;
+    font-weight: 500;
+
+    &::after {
+        content: "\003E";
+        margin-left: 5px;
+    }
+
+    &:hover {
+        background-color: #FFFFFF;
+        color: #147D41;
+    }
+}

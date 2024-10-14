@@ -1,16 +1,13 @@
-// base
-@import "./base/colors";
-@import "./base/fonts";
-@import "./base/layout";
-@import "./base/breakpoints";
-@import "./base/reset";
-@import "./base/base";
-@import "./base/dev";
-
 // atoms
+@import "./atoms/title";
+@import "./atoms/btn";
+
 
 // molecule
+@import "./molecules/card";
 
 // organisms
+@import "./organisms/old";
+@import "./organisms/cards";
 
 // pages

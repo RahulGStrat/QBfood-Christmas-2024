@@ -1,0 +1,40 @@
+.cg-card {
+    width: calc(50% - 32px);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    border: 2px solid #333333;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 24px;
+    text-align: center;
+    display: inline-block;
+
+    &__img {
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            color: #333333;
+        }
+    }
+
+    &__wrap {
+        text-align: right;
+    }
+}

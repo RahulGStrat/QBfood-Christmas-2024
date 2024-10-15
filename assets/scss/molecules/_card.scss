@@ -14,10 +14,12 @@
         width: 70%;
         height: auto;
         margin: 0 auto;
+        transition: 0.5s ease-in-out;
 
         img {
             width: 100%;
             height: auto;
+            display: block;
         }
     }
 
@@ -31,10 +33,54 @@
             font-size: 16px;
             font-weight: 400;
             color: #333333;
+            text-align: left;
         }
     }
 
     &__wrap {
-        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .cg-card {
+        &__inner {
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cg-card {
+        width: calc(80% - 32px);
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .cg-card {
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+
+        &__img {
+            width: 100%;
+        }
+
+        &__inner {
+            flex-direction: column;
+
+            p {
+                text-align: center;
+            }
+        }
+
+        &__wrap {
+            justify-content: center;
+        }
     }
 }
